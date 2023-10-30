@@ -2,10 +2,7 @@ html {
   font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
   font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
 }
-h1 {
-  font-size: 60px;
-  text-align: center;
-}
+
 h2 {
   font-size: 40px;
   text-align: center;
@@ -17,6 +14,7 @@ li {
   line-height: 1.5;
   letter-spacing: 1px;
 }
+
 html {
   background-color: #ffffff;
 }
@@ -31,13 +29,10 @@ body {
 h1 {
   margin: 0;
   padding: 20px 0;
-  color: #00539f;
-  text-shadow: 3px 3px 1px black;
+  color: black;
+  text-shadow: 3px 3px 1px gray;
 }
-img {
-  display: block;
-  margin: 0 auto;
-}
+
 nav, article, aside, footer {
   background-color: white;
   padding: 1%;
@@ -45,7 +40,7 @@ nav, article, aside, footer {
 
 nav {
   height: 50px;
-  background-color: #ff80ff;
+  background-color: white;
   display: flex;
   margin-bottom: 10px;
 }
