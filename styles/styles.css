@@ -95,7 +95,7 @@ input[type="search"] {
 input[type="submit"] {
   flex: 1;
   margin-left: 1rem;
-  background: #ffffff;
+  background: gray;
   border: 0;
   color: white;
 }
