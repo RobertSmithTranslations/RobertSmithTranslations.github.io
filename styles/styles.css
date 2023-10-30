@@ -22,25 +22,25 @@ body {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #ff9500;
+  background-color: #ffffff;
   padding: 0 20px 20px 20px;
   border: 5px solid black;
 }
 h1 {
   margin: 0;
   padding: 20px 0;
-  color: black;
+  color: blue;
   text-shadow: 3px 3px 1px gray;
 }
 
 nav, article, aside, footer {
-  background-color: white;
+  background-color: #ffffff;
   padding: 1%;
 }
 
 nav {
   height: 50px;
-  background-color: white;
+  background-color: #ffffff;
   display: flex;
   margin-bottom: 10px;
 }
@@ -86,7 +86,7 @@ input[type="search"] {
 input[type="submit"] {
   flex: 1;
   margin-left: 1rem;
-  background: #333;
+  background: #ffffff;
   border: 0;
   color: white;
 }
