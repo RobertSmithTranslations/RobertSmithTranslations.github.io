@@ -86,7 +86,7 @@ body {
 }
 
 /* Add an active class to highlight the current page */
-.topnav a:active {
+.topnav a .active {
   float: left;
   display: block;
   color: black;
