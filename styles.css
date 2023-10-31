@@ -86,11 +86,16 @@ body {
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
-  display: none;
+  display: inline-block;
+}
+
+.topnav a:visited {
+  color: white;
+  font-weight: bold;
 }
 
 a:visited {
-  color: white;
+  color: blue
   font-weight: bold;
 }
 
