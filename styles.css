@@ -74,15 +74,27 @@ body {
 
 /* Change the color of links on hover */
 .topnav a:hover {
+  float: left;
+  display: block;
   color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
   background-color: #ddd;
   
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: whitesmoke;
+  float: left;
+  display: block;
   color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: whitesmoke;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -91,7 +103,13 @@ body {
 }
 
 .topnav a:visited {
+  float: left;
+  display: block;
   color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;;
   font-weight: bold;
 }
 
